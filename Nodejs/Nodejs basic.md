@@ -59,7 +59,7 @@ npm -v
 
 비동기 처리 함수의 콜백 함수, 비동기식 이벤트 핸들러, Timer 함수(setTimeout(), setInterval())의 콜백 함수가 보관되는 영역이다.
 
-### Refere
+### Reference
 
 ---
 
