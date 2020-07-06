@@ -14,8 +14,11 @@
 - [콜백, 프로미스](https://github.com/Ujoy7851/TIL/blob/master/JavaScript/ES6_%EC%BD%9C%EB%B0%B1%2C%20%ED%94%84%EB%A1%9C%EB%AF%B8%EC%8A%A4.md)
 - [Async, Await](https://github.com/Ujoy7851/TIL/blob/master/JavaScript/ES6_Async%2C%20Await.md)
 
+
 ## Node.js
 - [Node.js Basic](https://github.com/Ujoy7851/TIL/blob/master/Nodejs/Nodejs%20basic.md)
+- [모듈](https://github.com/Ujoy7851/TIL/blob/master/JavaScript/Node.js_%EB%AA%A8%EB%93%88.md)
+- [전역객체, 전역변수](https://github.com/Ujoy7851/TIL/blob/master/JavaScript/Node.js_%EC%A0%84%EC%97%AD%20%EA%B0%9D%EC%B2%B4%2C%20%EC%A0%84%EC%97%AD%20%EB%B3%80%EC%88%98.md)
 
 ## Data Structure
 - [배열, 구조체](https://github.com/Ujoy7851/TIL/blob/master/DS/%EB%B0%B0%EC%97%B4%2C%20%EA%B5%AC%EC%A1%B0%EC%B2%B4.md)
@@ -27,3 +30,8 @@
 - [알고리즘 관련 수학](https://github.com/Ujoy7851/TIL/blob/master/AL/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EA%B4%80%EB%A0%A8%20%EC%88%98%ED%95%99.md)
 - [정렬 알고리즘](https://github.com/Ujoy7851/TIL/blob/master/AL/%EC%A0%95%EB%A0%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)
 - [Dynamic Programming](https://github.com/Ujoy7851/TIL/blob/master/AL/Dynamic%20Programming.md)
+
+## Database
+- [MySQL SQL 정리](https://github.com/Ujoy7851/TIL/blob/master/DB/MySQL_SQL%20%EC%A0%95%EB%A6%AC.md)
+- [ACID](https://github.com/Ujoy7851/TIL/blob/master/DB/ACID.md)
+- [NoSQL](https://github.com/Ujoy7851/TIL/blob/master/DB/NoSQL%EC%9D%B4%EB%9E%80.md)
