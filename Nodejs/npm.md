@@ -30,6 +30,7 @@ $ npm init -y
 - **name, version** : 패키지의 고유성을 판단하는 항목으로 생략할 수 없다.
 - **dependencies** : 해당 프로젝트가 의존하는 패키지(참조하는 모듈)를 명시. `npm install` 명령을 사용해 패키지를 설치하면 **dependencies**에 이름과 버전이 기록된다.
 - **devDependencies** : 트랜스파일러와 같이 개발 시에만 사용하는 개발용 의존 패키지를 명시한다. `npm install` 명령에 `--save-dev` (또는 `-D`)옵션을 사용하면 패키지 설치와 함께 **devDependencies**에 기록된다.
+- **scripts** : `npm run`으로 실행시킬 수 있는 명령어를 정의할 수 있다. `start` 명령어의 경우 run을 생략할 수 있다.
 
 ## 패키지 설치
 
