@@ -1,3 +1,5 @@
+이 글은 인프런 Node.js 교과서 강의를 보고 작성되었으며 전체 코드는 https://github.com/ZeroCho/nodejs-book에서 참고할 수 있다.
+
 ## Sequelize
 
 Sequelize는 Postgres, MySQL, MariaDB, SQLite, Microsoft SQL Server를 지원하는 Promise 패턴 기반의 Node.js ORM이다.
@@ -7,7 +9,7 @@ Sequelize는 Postgres, MySQL, MariaDB, SQLite, Microsoft SQL Server를 지원하
 $ npm i sequelize mysql2
 $ npm i -g sequelize-cli
 
-# sequelize와 관련 파일 및 폴더 생성 (config.json, models ..)
+# sequelize 개발을 위한 초기화 (config.json, models ..)
 $ sequelize init
 ```
 
@@ -153,7 +155,7 @@ db.User.hasMany(db.Comment, { foreignKey: 'author', sourceKey: 'id'});
 db.Comment.belongsTo(db.User, { foreignKey: 'author', targetKey: 'id'});
 ```
 
-사용자의 id를 'author'라는 이름으로 댓글 모델의 외래키로 설정한다.
+위 코드는 사용자의 id를 'author'라는 이름으로 댓글 모델의 외래키로 설정한다.
 
 모델의 정의와 모델간 관계 설정이 끝났으면 sequelize를 동기화한다.
 

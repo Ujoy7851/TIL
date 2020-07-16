@@ -1,3 +1,5 @@
+이 글은 인프런 Node.js 교과서 강의를 보고 작성되었으며 전체 코드는 https://github.com/ZeroCho/nodejs-book에서 참고할 수 있다.
+
 ## Express
 
 Express는 Node.js의 http 모듈과 미들웨어라 불리는 컴포넌트를 기반으로 하는 웹 프레임워크다. 미들웨어를 통해 http 요청 처리나 쿠키, 세션 관리, 라우팅 등의 작업을 더 간단하게 처리할 수 있다.

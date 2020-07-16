@@ -80,7 +80,7 @@ Promise로 구현된 비동기 함수는 Promise 객체를 반환해야 한다. 
 
 then에 리턴값이 있으면 다음 then으로 넘어가고, Promise를 리턴하면 resolve나 reject되어 넘어간다.
 
-### Promise.resolve / Promise.resolve
+### Promise.resolve / Promise.reject
 
 존재하는 값을 Promise로 래핑하기 위해 사용
 
