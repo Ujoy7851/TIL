@@ -4,14 +4,13 @@
 
 MongoDB는 문서지향적 NoSQL 데이터베이스로 전통적인 테이블-관계 기반의 RDBMS의 한계를 극복하기 위한 새로운 형태의 데이터베이스이다.
 
-MongoDB의 가장 기본적인 데이터를 Document라 부르는데 이는 RDBMS의 row에 해당된다. Document의 집합인 Collection은 Table에 대응되며, Collection의 집합은 DB로 RDBMS와 동일하다.
-
 MongoDB는 MySQL의 테이블과 같은 스키마가 고정된 구조 대신 BSON(Binary JSON)이라 불리는 동적 스키마형 문서를 사용하여 같은 Collection 내에서도 다른 Schema의 document를 가질 수 있다.
 
 또한 배열이나 날짜 등 기존 RDBMS에서 지원하지 않는 형태로도 저장할 수 있어 JOIN없이 한 문서에 좀 더 이해하기 쉬운 형태로 정보를 저장할 수 있으며 CRUD Query가 고속으로 동작한다.
 
-**Document**
+MongoDB의 Field, Document, Collection는 각각 RDBMS의 Column, Row, Table에 해당한다.
 
+**Document**
 JSON object 형태의 key-value 쌍으로 이루어진 데이터 구조로 구성된다. value에는 다른 document, array, document array가 포함될 수 있다.
 
 각 Document는 _id라는 고유한 값을 가지며 ObjectId 타입이다.
