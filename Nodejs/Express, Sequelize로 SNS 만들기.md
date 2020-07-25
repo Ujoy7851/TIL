@@ -10,7 +10,7 @@ package.json에서 scripts에 start 명령어 추가
 
 `"start": "nodemon app"`
 
-**nodemon**은 서버에 변경사항이 있을 때 자동으로 재시작해주는 패키
+**nodemon**은 서버에 변경사항이 있을 때 자동으로 재시작해주는 모듈이다.
 
 ```bash
 npm i -D nodemon
