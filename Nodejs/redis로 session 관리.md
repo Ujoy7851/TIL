@@ -53,3 +53,7 @@ app.use(session(sessionOption));
 ```
 
 .env 파일에 위에서 실행한 redis 서버에 대한 HOST, PORT 정보를 저장해서 redis 클라이언트를 생성할 때 해당 값을 불러온다.
+
+
+### Reference
+https://poiemaweb.com/express-session-handling
