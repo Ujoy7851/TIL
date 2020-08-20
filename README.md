@@ -25,6 +25,10 @@
 - [Express](https://github.com/Ujoy7851/TIL/blob/master/Nodejs/express.md)
 - [Sequelize](https://github.com/Ujoy7851/TIL/blob/master/Nodejs/sequelize.md)
 - [SNS 만들기](https://github.com/Ujoy7851/TIL/blob/master/Nodejs/Express%2C%20Sequelize%EB%A1%9C%20SNS%20%EB%A7%8C%EB%93%A4%EA%B8%B0.md)
+- [mongoDB, mongoose](https://github.com/Ujoy7851/TIL/blob/master/Nodejs/mongoDB.md)
+- [GCP 서비스 배포](https://github.com/Ujoy7851/TIL/blob/master/Nodejs/%EC%84%9C%EB%B9%84%EC%8A%A4%20%EB%B0%B0%ED%8F%AC.md)
+- [Redis로 세션 관리](https://github.com/Ujoy7851/TIL/blob/master/Nodejs/redis%EB%A1%9C%20session%20%EA%B4%80%EB%A6%AC.md)
+
 
 ## Data Structure
 - [배열, 구조체](https://github.com/Ujoy7851/TIL/blob/master/DS/%EB%B0%B0%EC%97%B4%2C%20%EA%B5%AC%EC%A1%B0%EC%B2%B4.md)
@@ -51,3 +55,4 @@
 ## Web
 - [REST API](https://github.com/Ujoy7851/TIL/blob/master/Web/REST%20API.md)
 - [html_input vs button](https://github.com/Ujoy7851/TIL/blob/master/Web/html_input%20vs%20button.md)
+- [HTML 데이터 저장](https://github.com/Ujoy7851/TIL/blob/master/Web/HTML%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%80%EC%9E%A5.md)
