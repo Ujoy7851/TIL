@@ -56,3 +56,6 @@
 - [REST API](https://github.com/Ujoy7851/TIL/blob/master/Web/REST%20API.md)
 - [html_input vs button](https://github.com/Ujoy7851/TIL/blob/master/Web/html_input%20vs%20button.md)
 - [HTML 데이터 저장](https://github.com/Ujoy7851/TIL/blob/master/Web/HTML%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%80%EC%9E%A5.md)
+
+## CS
+- [Java 추상클래스, 인터페이스, 다형성, 의존성주입](https://github.com/Ujoy7851/TIL/blob/master/CS/Java_%EC%B6%94%EC%83%81%ED%81%B4%EB%9E%98%EC%8A%A4%2C%20%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%2C%20%EB%8B%A4%ED%98%95%EC%84%B1%2C%20%EC%9D%98%EC%A1%B4%EC%84%B1%EC%A3%BC%EC%9E%85.md)
