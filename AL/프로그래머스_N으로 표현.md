@@ -39,7 +39,6 @@ function iterateNumber(N, n) {
   return parseInt(answer);
 }
 
-
 function solution(N, number) {
   let cases = [...Array(8)].map(() => new Set());
   cases.forEach((c, i) => { c.add(iterateNumber(N, i + 1)) });
