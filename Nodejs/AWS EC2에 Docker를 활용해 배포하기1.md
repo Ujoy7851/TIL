@@ -61,7 +61,7 @@ c.NotebookApp.notebook_dir = '/'
 
 ### HTTPS 적용
 
-해시 된 암호가 브라우저에서 암호화되지 않은 상태로 전송되지 않도록 웹 인증서와 SSL을 사용하는 것이 좋다. 자체 서명 된 인증서를 사용할 수도 있으나 Let's Encrypt를 통해 무료 SSL 인증서를 받아 서버를 설정하도록 해보겠다. 인증서 발급 방법은 [이 포스트](https://www.notion.so/nginx-Let-s-Encrypt-SSL-Ubuntu-c97fcf064cb049128354290461484b3c)에 설명해두었다. (https 적용을 위해 인증서를 발급받기 전 도메인이 등록되어 있어야 한다.)
+해시 된 암호가 브라우저에서 암호화되지 않은 상태로 전송되지 않도록 웹 인증서와 SSL을 사용하는 것이 좋다. 자체 서명 된 인증서를 사용할 수도 있으나 Let's Encrypt를 통해 무료 SSL 인증서를 받아 서버를 설정하도록 해보겠다. 인증서 발급 방법은 [이 포스트](https://github.com/Ujoy7851/TIL/blob/master/Nodejs/nginx%EC%97%90%EC%84%9C%20Let's%20Encrypt%EB%A1%9C%20SSL%20%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0.md)에 설명해두었다. (https 적용을 위해 인증서를 발급받기 전 도메인이 등록되어 있어야 한다.)
 
 설정이 완료된 후 root 권한으로 Jupyter notebook을 실행해보면 8888 포트로 Jupyter 서버가 열린 것을 확인할 수 있다. EC2 콘솔로 이동해 보안 그룹에서 인바운드 규칙을 편집해 8888 포트를 열어주면 브라우저를 통해 접속할 수 있다.
 
